@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  &__inner {
+    display: flex;
+    margin-inline: auto;
+    gap: 20px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: auto;
+    gap: 10px;
+    margin-top: 50px;
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 300px;
+      padding: 5px;
+      background-color: pink;
+    }
+  }
+}
