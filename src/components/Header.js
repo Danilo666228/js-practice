@@ -3,7 +3,7 @@ const Header = document.querySelector('#app').innerHTML += `
     <h1 class="header__title">
         Contact List on JS
     </h1>
-    <a class="header__link" href="#">GitHub Repository Link</a>
+    <a class="header__link" target="_blank" href="https://github.com/Danilo666228/js-practice">GitHub Repository Link</a>
 </header>
 `
 

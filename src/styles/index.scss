@@ -1,6 +1,7 @@
-@import 'variables';
+@use 'normalize';
+@use 'variables';
+@use 'globals';
 
-body {
-  
+@use 'blocks/header';
 
-}
+
