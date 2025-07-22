@@ -1,0 +1,16 @@
+{
+  "name": "js-practice",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "mock-config-server": "^4.0.3",
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.4"
+  }
+}
