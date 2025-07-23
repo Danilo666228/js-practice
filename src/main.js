@@ -1,9 +1,7 @@
-import './styles/index.scss'
+import "./styles/index.scss";
 
-import Header from './components/Header.js'
 import ContactList from "./components/ContactList.js";
+import Header from "./components/Header.js";
 
-
-Header
-ContactList
-
+new Header();
+new ContactList();
